@@ -2,5 +2,9 @@ auth:
   registry.hub.docker.com:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
+  registry.cn-shenzhen.aliyuncs.com:
+    username: xxxxxxx
+    password: xxxxxxx
 images:
   k8s.gcr.io/metrics-server/metrics-server: williamqiu/metrics-server
+  k8s.gcr.io/metrics-server/metrics-server: registry.cn-shenzhen.aliyuncs.com/images_mirror/metrics-server
