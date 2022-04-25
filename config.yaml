@@ -3,7 +3,4 @@ auth:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
 images:
-  docker.io/neuvector/controller:5.0.0-b1
-  docker.io/neuvector/enforcer:5.0.0-b1
-  docker.io/neuvector/manager:5.0.0-b1
-  docker.io/neuvector/scanner:latest
+  k8s.gcr.io/metrics-server/metrics-server: williamqiu/metrics-server
